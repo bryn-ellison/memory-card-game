@@ -31,10 +31,19 @@ export const CardDeck = () => {
   ];
   const [cardState, setCardState] = useState(sunnyCards);
 
+  const handleClick = () => {
+    const unshuffled = [...cardState];
+    let shuffled = unshuffled
+      .map((value) => ({ value, sort: Math.random() }))
+      .sort((a, b) => a.sort - b.sort)
+      .map(({ value }) => value);
+    setCardState(shuffled);
+  };
+
   return (
     <div>
       {cardState.map((card) => {
-        return <Card card={card} key={card.id} />;
+        return <Card card={card} key={card.id} handleClick={handleClick} />;
       })}
     </div>
   );

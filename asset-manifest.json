@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/memory-card-game/static/css/main.e35012fd.css",
+    "main.js": "/memory-card-game/static/js/main.6e877fe0.js",
+    "static/media/charlie.png": "/memory-card-game/static/media/charlie.1d411bf4e8fa36cfeb71.png",
+    "static/media/waitress.png": "/memory-card-game/static/media/waitress.1daf8e3e157c96802cb1.png",
+    "static/media/zee.png": "/memory-card-game/static/media/zee.bbb78aad531879588557.png",
+    "static/media/LucidaCasualItalic.ttf": "/memory-card-game/static/media/LucidaCasualItalic.1cbdd218da6a586a17b1.ttf",
+    "static/media/dee.jpg": "/memory-card-game/static/media/dee.7cfcda5329ea4289650c.jpg",
+    "static/media/cricks.jpg": "/memory-card-game/static/media/cricks.6ea9ae68b6c70f7fb1bd.jpg",
+    "static/media/frank.jpg": "/memory-card-game/static/media/frank.ec84c860a67b238e20b3.jpg",
+    "static/media/liam.jpg": "/memory-card-game/static/media/liam.670dfcbcb90c6e368f00.jpg",
+    "static/media/mac.webp": "/memory-card-game/static/media/mac.fb720d6d5b575438ac98.webp",
+    "static/media/dennis.webp": "/memory-card-game/static/media/dennis.608ff7a5fa0d7650cdb3.webp",
+    "index.html": "/memory-card-game/index.html",
+    "main.e35012fd.css.map": "/memory-card-game/static/css/main.e35012fd.css.map",
+    "main.6e877fe0.js.map": "/memory-card-game/static/js/main.6e877fe0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e35012fd.css",
+    "static/js/main.6e877fe0.js"
+  ]
+}

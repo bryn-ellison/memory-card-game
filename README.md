@@ -1,4 +1,4 @@
-#The Always Sunny Memory Card Game
+# The Always Sunny Memory Card Game
 
 Built in React JS as part of Odin Project React curriculum.
 

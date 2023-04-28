@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Card } from "./Card";
-import charlie from "../images/charlie.jpg";
+import charlie from "../images/charlie.png";
 import mac from "../images/mac.webp";
 import dennis from "../images/dennis.webp";
 import dee from "../images/dee.jpg";
@@ -15,8 +15,8 @@ export const CardDeck = ({ addScore }) => {
   const sunnyCards = [
     {
       charName: "Charlie",
-      likes: "Ghouls",
-      dislikes: "Dennis, because he is bastard man",
+      likes: "Ghouls, The Waitress",
+      dislikes: "People's knees",
       id: 1,
       image: charlie,
     },
@@ -97,7 +97,7 @@ export const CardDeck = ({ addScore }) => {
     } else {
       addScore(clickedCards.length);
     }
-  }, [clickedCards]);
+  }, [clickedCards, addScore]);
 
   const handleClick = (id) => {
     const unshuffled = [...cardState];
@@ -110,7 +110,7 @@ export const CardDeck = ({ addScore }) => {
   };
 
   return (
-    <div>
+    <div className="CardDeck">
       {cardState.map((card) => {
         return <Card card={card} key={card.id} handleClick={handleClick} />;
       })}
